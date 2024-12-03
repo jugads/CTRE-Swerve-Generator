@@ -107,4 +107,7 @@ public class Telemetry {
             SmartDashboard.putData("Module " + i, m_moduleMechanisms[i]);
         }
     }
+    public double speedLimiter(double limit) {
+        return MaxSpeed*limit;
+    }
 }
